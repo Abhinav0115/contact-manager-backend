@@ -12,7 +12,7 @@
 
 #### Step 5: Define "PORT" , "CONNECTION_DB ", and "ACCESS_TOKEN_SECRET" inside a .env file.
 
-example: CONNECTION_DB = mongodb+srv://[username]:[password]@[cluster_name].example.mongodb.net/[database_name]?retryWrites=true&w=majority
+###### example: CONNECTION_DB = mongodb+srv://[username]:[password]@[cluster_name].example.mongodb.net/[database_name]?retryWrites=true&w=majority
 
 #### Step 6: Run the "npm install" command in the terminal.
 
