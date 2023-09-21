@@ -51,7 +51,7 @@ const errorHandler = (err, req, res, next) => {
             //     messgae: err.message,
             //     stack: err.stack,
             // });
-            console.log("No error, All is well");
+            console.log("No error");
             break;
     }
 

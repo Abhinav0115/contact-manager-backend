@@ -4,10 +4,10 @@ const connectDB = async () => {
     try {
         const connect = await mongoose.connect(process.env.CONNECTION_DB);
         console.log(
-            `MongoDB Connected: ${connect.connection.host} , --> ${connect.connection.name}`
+            `MongoDB Connected: ${connect.connection.host} , ${connect.connection.name}`
         );
     } catch (err) {
-        console.log(err);
+        console.error(err);
         process.exit(1);
     }
 };

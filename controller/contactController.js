@@ -25,8 +25,6 @@ const getContact = asyncHandler(async (req, res) => {
 //@route POST /api/contacts
 //@access Private
 const createContact = asyncHandler(async (req, res) => {
-    console.log("the requested body is: ", req.body);
-
     const { name, email, phone } = req.body;
 
     if (!name || !email || !phone) {
